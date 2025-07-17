@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(135, 136, 136);
+    color: black;
+}
+.section{
+    background-color: #fff;
+    padding: 25px;
+    margin: 20px 0;
+
+}
+h1 h2{
+    text-decoration: underline;
+}
+#image img{
+    margin-left:35%;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+}
+#image h1{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: serif;
+}
+@media screen and (max-width: 600px) {
+    #image img{
+        width: 50%;
+        height: auto;
+        margin-left:30%;
+    }
+    
+}

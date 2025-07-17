@@ -1,0 +1,44 @@
+.cat{
+    position: absolute;
+    left: 20px;
+    padding-bottom:10px;
+}
+.nav{
+    left: 20px;
+    position: absolute;
+}
+header{
+    position: fixed;
+    font-family:serif;
+    top: 0;
+    width: 100%;
+    background-color: rgda(0,0,50,0.5);
+    backdrop-filter: blur(10px);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+}
+.nav{
+    position: absolute;
+    left: 53%;
+}
+nav a{
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-family:serif;
+}
+.nav a:hover{
+    background-color: rgb(38, 38, 39);
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+main{
+    padding-top:10%;
+
+}

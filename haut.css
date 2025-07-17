@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../image/chemises.jpeg);
+    width: 100%;
+    background-size:cover;
+}
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: serif;
+    backdrop-filter: blur(80px);
+}
+#menu-caché{
+    display: none;
+}
+#boutton{
+    display: none;
+}
+#mon_boutton{
+    display: none;
+}
+#liste{
+    padding-left: 33%;
+    padding-top: 1rem;
+    display: flex;
+    gap:3rem;
+}
+#liste li{
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#liste a{
+    text-decoration: none;
+    color: white;
+}
+#liste li:hover{
+    background-color: white;
+    color: black;
+    border-radius: 60px;
+
+}
+main{
+    padding-top: 7%;
+}
+#haut{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.comm img{
+    text-align: center;
+    width: 270px;
+    height: 350px;
+    border-radius:50px;  
+}
+.comm:hover{
+    transform: scale(1.05);
+    transition: all 0.59s ease-in-out;
+}
+h3{
+    font-size: 12px;
+}
+.comm{
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    font-family: serif;
+    align-items: center;
+    background-color:rgba(255, 255, 255, 0.224);
+    border-radius: 50px;
+    
+}
+.comm a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+footer{
+    color: black;
+    text-align: center;
+    font-family: serif;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.suivre{
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+#reseau{
+    padding-left: 0rem;
+
+
+}
+.reseaux{
+    margin: 5px;
+}
+#theme{
+    text-align: center;
+    font-family: serif;
+    padding-top: 25px;
+
+    }
+#contact{
+    text-decoration: underline;
+    margin: 1rem;
+}
+.bas{
+    color:rgba(189, 190, 190, 0.799);
+    font-size: 12px;
+}
+.bas a{
+    color: rgb(56, 56, 56);
+    text-decoration: none;
+}
+.bas li{
+    list-style: none;
+    margin: 10px;
+}
+.bas a:hover{
+    text-decoration: underline;
+    gap: 1rem;
+}
+#dispo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+@media screen and (max-width:450px) {
+    header{
+        display: none;
+    }
+    #logo2{
+    left:0;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    
+    
+}
+    .in{
+        font-size: 30px;
+        display:flex;
+        font-family:serif;
+    }
+    button{
+        background: transparent;
+        border: none;
+        display: block;
+        position: fixed;
+        font-size:30px;
+
+    }
+    #mon_boutton{
+        background: transparent;
+        font-family:serif;
+        border: none;
+        gap: 310px;
+        display:flex;
+        position: fixed;
+        font-size:25px;
+
+    }
+    #boutton{
+        display:flex;
+        position: fixed;
+        backdrop-filter: blur(80px);
+        border: none;
+        width: 100%;
+        height:30px;
+    }
+    #menu-caché{
+        display: none;
+        align-items:start;
+        background-color:rgba(0,0,0,0.5);
+        position:fixed;
+        top:0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+
+    }
+    h1{
+        padding-top: 1rem;
+    }
+    #liens{
+        display: flex;
+        flex-direction: column;
+        font-family: serif;
+        font-size: 16px;
+        gap: 3rem;
+    }
+    a{
+        text-decoration: none;
+    }
+    .liens a{
+        color: black;
+    }
+    .liste:hover{
+        font-weight: bold;
+    }
+    #menu-content{
+        background-color: white;
+        padding: 10px 20px;
+        height: 100%;
+        width:250px;
+
+    }
+    #menu-content a{
+        color:black;
+    }
+    #menu-content a:hover{
+        color: white;
+        background-color: black;
+        border-radius: 60px;
+    }
+    #menu-logo{
+        display: flex;
+        justify-content: center;
+        align-items:start;
+        margin-bottom:2rem;
+    }
+    #menu-click{
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+
+
+    }
+    .comm img{
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    border-radius:30px;  
+}
+    
+} 
+    
+
+
+
